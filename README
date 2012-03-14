@@ -1,0 +1,19 @@
+This is a C99 implementation of the basic routine of the Differential Evolution algorithm by Storn & Price.
+It checks boundaries and resets accordingly.
+
+To use it, include differentialEvolution.h in your implementation.
+Compilation is as usual, but as it makes use of C99 features, remember to compile using ONE of the following:
+
+gcc -std=c99 myFile.c
+clang myFile.c
+
+Futher information on Differential Evolution:
+
+http://en.wikipedia.org/wiki/Differential_evolution
+
+Some good parameters for the DE Algorithm are discussed in:
+
+http://www.hvass-labs.org/people/magnus/publications/pedersen10good-de.pdf
+
+Rafael Verduzco.
+2012
